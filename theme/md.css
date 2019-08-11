@@ -1,0 +1,391 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-family: "Encode Sans", sans-serif !important;
+}
+
+.no-padding{
+	padding: 0;
+}
+
+.md-red{
+	color: #e11e23 !important;
+}
+
+.md-blue{
+	color: #000029 !important;
+}
+
+.diagnostic-section,
+.knowledge-base-section,
+.support-section,
+.contact-section{
+	display: none;
+}
+/*site header css starts here*/
+
+
+.header-patch{
+	top: 0 !important;
+    width: 100% !important;
+    bottom: unset !important;
+}
+.header-patch + div:not(.page-container) {
+	width: 100% !important;
+}
+
+.site_logo {
+	width: 70px;
+	height: 50px;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.icon{
+	color: #9d9d9d;
+}
+
+.page-header, .page-footer{
+	max-width: 100%;
+	padding: 0;
+	border: 0;
+}
+
+.page-header ul.navlinks li a,
+.page-header ul.navlinks li a:hover{
+	color: rgb(51,51,51);
+}
+
+a.header-avatar img{
+	top: -4px;
+}
+
+/*site header css ends here*/
+
+.page-container{
+	display: flex;
+}
+
+.page-body-container{
+	width: 100%;
+}
+
+.page-side-menu{
+	display: none;
+}
+
+
+#wrap{
+	max-width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+/*side menu css starts here*/
+
+.page-side-menu .side-menu .side-menu__item{
+	margin-top: 14px;
+	padding: 10px 0 15px 15px;
+	border-bottom: 1px rgba(0,0,0,.3) solid;
+}
+
+.page-side-menu .side-menu .side-menu__link{
+	color: #fff;
+	font-size: 14px;
+}
+
+.page-side-menu .side-menu .side-menu__link:hover{
+	text-decoration: none;
+}
+
+.page-side-menu .side-menu .side-menu__item:hover .side-menu__link,
+.page-side-menu .side-menu .side-menu__item.item-active .side-menu__link,
+.page-side-menu .side-menu .side-menu__item:hover{
+	font-weight: 600;
+	background-color: #19193e;
+}
+
+.page-side-menu .empty-list{
+	color: #fff;
+	padding: 15px;
+}
+
+/*side menu css ends here*/
+
+.page-body-container{
+	padding: 10px 10px 0;
+}
+
+.page-body .header{
+	padding: 0;
+}
+
+.page-body .header dt{
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 0;
+}
+
+.page-body li.header dl.row-item dt .list-inner{
+	margin-top: 1px;
+	margin-bottom: 1px;
+	margin-left: 1px; 
+	padding-left: 16px;
+	/*background: #d2d2d2;*/
+	background-color: #e11e23;
+	color: #fff;
+	padding: 14px 10px;
+}
+
+.page-body li.header dl.row-item dt .list-inner a{
+	display: inline-block;
+	width: 100%;
+}
+.page-body li.header dl.row-item dt .list-inner,
+.page-body li.header dl.row-item dt .list-inner a{
+	font-size: 14px;
+	color: #fff;
+	font-weight: 700;
+}
+
+.page-body .header dd{
+	font-size: 14px;
+	/*color: #000;*/
+	font-weight: 700;
+	/*background: #d2d2d2;	lightgray*/
+	background-color: #e11e23;
+	display: inline-block;
+	margin: 1px !important;
+	padding: 12px 10px;
+}
+
+.page-body .topiclist dd{
+	padding-left: 10px !important;
+	padding-right: 10px !important;
+}
+
+
+.page-body .topiclist dd.topics,
+.page-body .topiclist dd.posts,
+.page-body .topiclist dd.views {
+	width: 93px;
+}
+
+.page-body .topiclist dd.lastpost,
+.page-body .topiclist dd.redirect,
+.page-body .topiclist dd.moderation,
+.page-body .topiclist dd.time,
+.page-body .topiclist dd.info {
+	width: 217px;
+}
+
+.page-body .topiclist dd{
+	color: #fff;
+}
+
+.page-body .topiclist.forums dd,
+.page-body .topiclist dd a.lastsubject,
+.page-body .topiclist dt .list-inner,
+.page-body .topiclist dt .list-inner a,
+.page-body .forum-title a,
+.page-body .topic-title a,
+.page-body .posting-title a,
+.page-body .post .postbody h3 a,
+.page-body .post .postbody .content,
+.page-body .actions-jump a
+{
+	color: rgb(51, 51, 51);
+}
+
+.username-coloured,
+.username,
+.page-footer .stat-block em a:first-of-type,
+.header-profile .header-avatar,
+.header-profile .header-avatar span,
+#tabs li:hover a,
+.active-subsection span,
+.cp-main .panel a:hover,
+.forumbg.forumbg-table .info a,
+.action-bar .member-search.panel a:hover,
+.forumbg.forumbg-table .memberlist thead a:hover,
+h2.viewonline-title + p a:hover,
+.panel .inner .content h3 + p + p strong a:hover,
+.forumbg.forumbg-table .table1 thead tr th.info a,
+h2.viewonline-title + p + div.action-bar.bar-top + div.forumbg.forumbg-table + p em a:first-of-type{
+	color: #e11e23 !important;
+}
+
+.page-footer .stat-block h3,
+.page-footer .stat-block h3 a,
+.page-footer .stat-block em a:last-of-type,
+.page-footer .copyright .footer-row a,
+.page-footer .copyright .footer-row a span,
+.dropdown-contents li a,
+.page-body h2,
+#tabs a,
+.linkmcp a,
+.panel-container .panel h3,
+.forum-selection label,
+.cp-main .panel a,
+.solo,
+.panel h3,
+.panel dt label,
+.pagination,
+.advanced-search-link a,
+.advanced-search-link i,
+.action-bar .member-search.panel a,
+.forumbg.forumbg-table .memberlist thead a,
+.postprofile a,
+#options-panel label,
+.profile-details dd,
+.profile-details dd a,
+.panel.bg2 .details dd,
+.panel.bg2 .details dd a,
+.headerspace.panel h3 a,
+label[for='username'] span,
+label[for='password'] span,
+label[for='autologin'],
+label[for='viewonline'],
+.quick-login a,
+.panel .content h2.login-title + fieldset.fields1 dl:nth-of-type(2) dd a,
+.panel .inner .content h3 + p + p strong a,
+h2.viewonline-title,
+h2.viewonline-title + p a,
+.forumbg.forumbg-table .table1 thead tr th.name a,
+.forumbg.forumbg-table .table1 thead tr th.active a,
+.forumbg.forumbg-table .table1 tbody tr td a,
+h2.viewonline-title + p + div.action-bar.bar-top + div.forumbg.forumbg-table + p em a:last-of-type
+{
+	color: #000029 !important;
+}
+
+.profile-details dd:first-of-type span,
+.forumbg.forumbg-table .table1 tbody tr td.info a{
+	color: #e11e23 !important;
+}
+
+.jumpbox-cat-link{
+	background-color: transparent;
+}
+
+.caret {
+	display: inline-block;
+	width: auto;
+	height: auto;
+	margin-left: 0;
+	vertical-align: middle;
+	border: 0;
+}
+
+.mark{
+	background-color: #fcf8e3;
+}
+
+.button,
+input.button1:hover,
+input.button2:hover{
+	color: #e11e23;
+	border-color: #C7C3BF;	
+}
+.button:hover,
+.button:hover i.icon{
+	color: #000029;	
+	border-color: #000029;
+}
+
+.button .icon,
+.button-secondary {
+	color: #8f8f8f;
+}
+
+.Maincontent_div .panel {
+	padding: 0;
+}
+
+fieldset.quick-login input.inputbox{
+	width: auto;
+}
+
+.stat-block {
+    padding-left: 5px;
+}
+
+@media all and (min-width: 768px) {
+	.no-padding-md{
+		padding: 0;
+	}
+	.site_logo {
+		width: 85px;
+		height: 70px;
+	}
+	a.header-avatar img{
+		top: -8px;
+	}
+
+	#page-header .inner{
+		justify-content: space-between;
+		display: flex;
+	}
+
+	#page-header .inner::after{
+		display: none;
+	}
+
+	#page-header .inner .site-description{
+		width: 15%;
+		text-align: center;
+		float: none;
+	}
+
+	#page-header .inner .site-description a{
+		float: none;
+	}
+
+	#page-header .inner .lightsearch{
+		float: none;
+		margin-top: 0;
+		align-self: center;
+		padding-right: 15px;
+	}
+
+	.page-side-menu{
+		width: 15%;
+		display: block;
+		background-color: #000029;
+	}
+
+	.page-side-menu +.page-body-container{
+		width: 85%;
+	}
+}
+
+@media all and (min-width: 950px) {
+	.page-body .topiclist dd.lastpost,
+	.page-body .topiclist dd.redirect,
+	.page-body .topiclist dd.moderation,
+	.page-body .topiclist dd.time,
+	.page-body .topiclist dd.info {
+		width: 248px;
+	}
+}
+@media all and (min-width: 1600px) {
+	#page-header .inner .site-description,
+	.page-side-menu{
+		width: 10%;
+	}
+	.page-side-menu +.page-body-container{
+		width: 90%;
+	}
+}
+
+@media all and (min-width: 1920px) {
+	#page-header .inner .site-description,
+	.page-side-menu{
+		width: 8%;
+	}
+	.page-side-menu +.page-body-container{
+		width: 92%;
+	}
+}
